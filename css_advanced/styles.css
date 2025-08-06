@@ -246,6 +246,65 @@ header {
     margin: 0rem;
 }
 
+.membership {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 502px;
+    background-color: #071629;
+    color: #FFFFFF;
+}
+
+.membership h1 {
+    font-weight: 100;
+    font-size: 32px;
+}
+
+.membership img {
+    margin-bottom: 2rem;
+}
+
+.membership-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.membership-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 5rem 0 5rem;
+}
+
+.membership-card h2 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.membership-card p {
+    font-size: 14px;
+    line-height: 175%;
+    margin: 1rem;
+}
+
+.membership button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 162px;
+    height: 44px;
+    color: #FFFFFF;
+    background-color: #C271FF;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+}
 /*
 .faq {
     display: flex;
