@@ -1,0 +1,141 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('fonts/source-sans-pro/SourceSansPro-Regular.otf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    background-image: url('images/background.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+    color: #FFFFFF;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    width: 1103px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 234px;
+    height: 15px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.banner h1 {
+    display: flex;
+    font-size: 120px;
+    font-weight: bold;
+}
+
+.banner-desc {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.banner button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 162px;
+    height: 44px;
+    color: #FFFFFF;
+    background-color: #C271FF;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 2px 20px #00000080;
+    margin-top: 2rem;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.pro-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+.pro-container h2 {
+    font-size: 32px;
+    font-weight: 100;
+    width: 291px;
+    height: 40px;
+}
+
+.highlight {
+    font-weight: bold;
+    color:#C271FF
+}
+
+.pro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1009px;
+    height: 237px;
+}
+
+.pro-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 237px;
+    width: 150px;
+    margin-top: 10rem;
+}
+
+.pro-card img {
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.pro-card h3 {
+    font-size: 18px;
+}
+
+.pro-card p {
+    font-size: 16px;
+    font-style: italic;
+}
