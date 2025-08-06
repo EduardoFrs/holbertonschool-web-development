@@ -171,3 +171,115 @@ header {
 .quote p {
     font-style: italic;
 }
+
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 624px;
+}
+
+.player {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+}
+
+.player-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video h1 {
+    color: #071629;
+    font-weight: normal;
+    font-size: 32px;
+    margin-bottom: 5rem;
+}
+
+.video h2 {
+    color: #071629;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.video p {
+    color: #07162980;
+}
+
+.video h3, .video-rating p {
+    color: #C271FF;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.video-container,
+.video-profil,
+.video-rating {
+    display: flex;
+    flex-direction: row;
+}
+
+.video-profil {
+    align-items: center;
+}
+
+.video-profil img {
+    margin-right: 1rem;
+}
+
+.video h2,
+.video p,
+.video-profil,
+.video-rating {
+    margin: 1rem;
+}
+
+.video-rating {
+    justify-content: space-between;
+}
+
+.video-rating p {
+    margin: 0rem;
+}
+
+/*
+.faq {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #071629;
+}
+
+.faq h1 {
+    font-weight: 100;
+    font-size: 60px;
+    margin-top: 5rem;
+}
+
+.faq h2 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.faq p {
+    font-size: 14px;
+    color: #07162980;
+    line-height: 150%;
+    margin-top: 2rem;
+}
+
+.faq-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.faq-block {
+    margin: 5rem;
+}
